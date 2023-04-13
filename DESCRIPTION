@@ -1,0 +1,42 @@
+Package: epitopes
+Type: Package
+Title: Processing and Feature Extraction for Epitope Data
+Version: 0.5.2
+Date: 2021-07-01
+Author: c(person(given = "Felipe", family = "Campelo",
+                    email = "f.campelo@aston.ac.uk",
+                    role = c("aut", "cre")),
+          person(given = "Jodie", family = "Ashford",
+                    email = "ashfojsm@aston.ac.uk",
+                    role = c("aut")),
+          person(given = "Francisco", family = "Lobo",
+                    email = "franciscolobo@gmail.com",
+                    role = c("ctb")))
+Maintainer: Felipe Campelo <f.campelo@aston.ac.uk>
+Description: Routines for retrieval and preprocessing of epitope data from 
+             IEDB (https://iedb.org/), as well as feature calculation and 
+             assessment of classification performance .
+License: GPL-2
+Depends: R (>= 3.6.0)
+Imports: assertthat (>= 0.2.1),
+         XML (>= 3.98),
+         dplyr (>= 0.8.3),
+         reutils (>= 0.2.3),
+         purrr (>= 0.3.3),
+         data.table (>= 1.12.8),
+         Peptides (>= 2.4.1),
+         pbapply (>= 1.4.0),
+         stringr (>= 1.4.0),
+         seqinr (>= 4.2.0),
+         ranger (>= 0.12.1),
+         utils
+Suggests: 
+    pkgdown,
+    knitr,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
+URL: https://github.com/fcampelo/epitopes
+Roxygen: list(markdown = TRUE)
